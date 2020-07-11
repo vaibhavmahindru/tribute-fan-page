@@ -72,13 +72,119 @@ html {
   text-transform: uppercase;
   margin: 0 2rem;
 }
-.last {
-  background: url("https://wallpapercave.com/wp/wp2048480.jpg");
 
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-size: 50%;
-  opacity: 40%;
+.down {
+  display: flex;
+  text-align: center;
+  font-size: 4rem;
+  justify-content: center;
+  position: relative;
+  top: 62%;
+  color: white;
+}
+
+.down > i:hover {
+  color: rgb(221, 221, 17);
+  transition: 0.4s;
+}
+
+#status {
+  text-transform: uppercase;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#status > h1 {
+  position: relative;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 2rem;
+  left: 40%;
+  text-decoration: underline;
+}
+
+#content {
+  display: flex;
+}
+
+.family > i,
+.education > i,
+.worth > i,
+.companies > i {
+  font-size: 5rem;
+}
+.family,
+.education,
+.worth,
+.companies {
+  padding: 1rem;
+  margin: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.b-quote > img {
+  height: 300px;
+  border-radius: 5rem;
+  position: relative;
+  top: 4rem;
+  left: 35%;
+  border: 5px solid rgb(94, 72, 72);
+}
+
+.b-quote > p {
+  position: relative;
+  top: 5rem;
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 3rem;
+  left: 30px;
+}
+
+span {
+  font-size: 6rem;
+  color: grey;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+  top: 5rem;
+}
+
+#introduction > h1 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: relative;
+  left: 36%;
+}
+
+#introduction > p {
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  padding: 0 30%;
+}
+
+#introduction > p > a {
+  text-decoration: none;
+  color: rgb(17, 29, 95);
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#introduction > p > a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+  transition: 0.5s;
 }
