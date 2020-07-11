@@ -188,3 +188,30 @@ span {
   text-decoration: underline;
   transition: 0.5s;
 }
+
+#companies {
+  position: relative;
+  top: 30vh;
+}
+
+#companies > h1 {
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: relative;
+  left: 36%;
+}
+
+.zip {
+  padding: 0 5rem;
+}
+.zip > img {
+  height: 200px;
+}
+.zip > h2 {
+  font-size: 25px;
+}
+.zip > p {
+  font-size: 20px;
+}
