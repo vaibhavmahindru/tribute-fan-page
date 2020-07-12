@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;515;600;700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
 *,
 html,
 body {
@@ -11,7 +13,8 @@ body {
 html {
   background-color: white;
   color: black;
-  font-family: "Comfortaa", "Arial", sans-serif;
+  /*font-family: "Comfortaa", "Arial", sans-serif;*/
+  font-family: "Muli", sans-serif;
 }
 
 .first {
@@ -141,24 +144,6 @@ hr {
   margin-bottom: 20px;
 }
 
-/*#quote {
-  background: black;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 5rem;
-}
-
-#quote > p {
-  color: beige;
-  font-size: 3rem;
-}*/
-
 #status > h1 {
   text-align: center;
   margin: 30px 0;
@@ -226,7 +211,6 @@ hr {
 
 #introduction > h1 {
   text-align: center;
-
   font-size: 50px;
   text-decoration: underline;
   font-weight: 800;
@@ -237,7 +221,6 @@ hr {
   font-size: 25px;
   justify-content: center;
   padding: 0 300px;
-  font-weight: 600;
 }
 
 #introduction > p > a {
@@ -249,4 +232,65 @@ hr {
 #introduction > p > a:hover {
   color: blueviolet;
   transition: 0.5s;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px;
+  text-decoration: underline;
+}
+
+footer > a:hover {
+  color: rgb(94, 77, 75);
+  transition: 0.5s;
+}
+
+#companies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/05/27/16/frb.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#companies > h1 {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: 800;
+  margin: 15px 0;
+  color: whitesmoke;
+}
+
+.comp {
+  padding: 15px;
+  background-color: rgb(230, 233, 236);
+  margin: 15px 20px;
+  border-radius: 2rem;
+  box-shadow: 5px 5px 3px gainsboro;
+}
+
+.comp:nth-child(n) {
+  margin-bottom: 50px;
+}
+
+.comp > img {
+  background: white;
+  padding: 5px;
+}
+
+.comp > h2 {
+  margin: 15px 0;
+  font-size: 30px;
+}
+
+.comp > p {
+  font-size: 25px;
+  padding: 5px 0;
 }
