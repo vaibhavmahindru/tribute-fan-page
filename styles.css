@@ -97,3 +97,156 @@ hr {
   border-radius: 1rem;
   box-shadow: 7px 7px 5px rgb(49, 47, 47);
 }
+
+#facts {
+  background: url("https://www.rmg.co.uk/sites/default/files/styles/banner/public/mars%20nasa.jpg?itok=WVtM_ywo");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fact {
+  background-color: white;
+  position: relative;
+  opacity: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin: 0 150px;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 3px rgb(190, 190, 194);
+}
+.fact > h1 {
+  text-decoration: underline;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+.fact > ul > li {
+  list-style: none;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 25px;
+}
+
+.fact > ul > li:nth-child(n) {
+  margin-bottom: 20px;
+}
+
+/*#quote {
+  background: black;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5rem;
+}
+
+#quote > p {
+  color: beige;
+  font-size: 3rem;
+}*/
+
+#status > h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+.c {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.c > i {
+  font-size: 100px;
+}
+
+.c > h3 {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.c > p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.b-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+.b-quote > img {
+  height: 250px;
+  border-radius: 2rem;
+  position: relative;
+  left: 20px;
+}
+.b-quote > p {
+  font-size: 45px;
+  padding: 50px 70px;
+  font-weight: 700;
+}
+
+.b-quote > p > span {
+  color: gray;
+  font-weight: 900;
+  font-size: 70px;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#introduction > h1 {
+  text-align: center;
+
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+#introduction > p {
+  margin-top: 20px;
+  font-size: 25px;
+  justify-content: center;
+  padding: 0 300px;
+  font-weight: 600;
+}
+
+#introduction > p > a {
+  font-size: 28px;
+  color: rgb(3, 5, 97);
+  font-weight: 900;
+}
+
+#introduction > p > a:hover {
+  color: blueviolet;
+  transition: 0.5s;
+}
