@@ -79,18 +79,32 @@ html {
 .down {
   display: flex;
   text-align: center;
-  font-size: 4rem;
+  font-size: 5rem;
   justify-content: center;
   position: relative;
-  top: 62%;
+  top: 59%;
   color: white;
+  animation-name: first;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
 }
-
+@keyframes first {
+  0% {
+    top: 59%;
+  }
+  50% {
+    top: 56%;
+  }
+  100% {
+    top: 59%;
+  }
+}
+/*
 .down > i:hover {
   color: rgb(221, 221, 17);
   transition: 0.4s;
 }
-
+*/
 hr {
   border: 1.5px solid black;
 }
